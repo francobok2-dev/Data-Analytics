@@ -1,8 +1,8 @@
-#Portafolio de Data Analytics – Franco Bokhdjalian
+# Portafolio de Data Analytics – Franco Bokhdjalian
 
 Repositorio que contiene proyectos prácticos enfocados en análisis de datos, visualización y exploración con Excel, Power BI y Tableau.
 
-##🔹 Proyecto 1. Análisis de Producción (Excel)
+## 🔹 Proyecto 1. Análisis de Producción (Excel)
 
 **Objetivo**:
 Desarrollar un dashboard interactivo en Excel para analizar la eficiencia productiva, los costos asociados y la distribución operativa por categoría, manager y período temporal.
@@ -46,7 +46,7 @@ Base de datos productiva con las siguientes variables:
 
 
 
-##🔹 Proyecto 2. Dashboard de Análisis Financiero y Transaccional (Excel)
+## 🔹 Proyecto 2. Dashboard de Análisis Financiero y Transaccional (Excel)
 
 **Objetivo**:
 Desarrollar un dashboard en Excel para analizar el rendimiento financiero de una empresa a través del estudio de ingresos, gastos, ganancias y comportamiento transaccional por diferentes dimensiones de negocio.
@@ -97,7 +97,7 @@ El dashboard permite analizar el desempeño financiero desde múltiples perspect
 
 
 
-##🔹 3. Dashboard Comercial y Análisis de Ventas con Promociones
+## 🔹 3. Dashboard Comercial y Análisis de Ventas con Promociones
 
 **Objetivo:**  
 Desarrollar un dashboard para analizar el rendimiento de ventas, rentabilidad de productos y efectividad de campañas promocionales, utilizando datos de clientes, productos y promociones.
