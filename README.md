@@ -97,7 +97,7 @@ El dashboard permite analizar el desempeño financiero desde múltiples perspect
 
 
 
-## 🔹 3. Dashboard Comercial y Análisis de Ventas con Promociones
+## 🔹 3. Dashboard Comercial y Análisis de Ventas con Promociones (Power BI)
 
 **Objetivo:**  
 Desarrollar un dashboard para analizar el rendimiento de ventas, rentabilidad de productos y efectividad de campañas promocionales, utilizando datos de clientes, productos y promociones.
@@ -133,7 +133,7 @@ El proyecto integra tres tablas principales:
 ### 🛠 Herramientas utilizadas
 
 - Power BI Desktop
-- Power Query Editor
+- Power Query Editor (limpieza y transformación de datos)
 - Segmentación de datos
 - Gráficos avanzados (barras apiladas, línea, dispersión, mapa geográfico)  
 - Integración de múltiples tablas
@@ -177,4 +177,4 @@ El proyecto integra tres tablas principales:
 
 El dashboard integra datos de clientes, productos y promociones en una sola vista, permitiendo evaluar simultáneamente performance comercial, impacto promocional y comportamiento geográfico de ventas.
 
-📁 Archivo: `Dashboard_Ventas_Promociones.xlsx`
+📁 Archivo: `Dashboard Ventas-Ganancia.pbix`
