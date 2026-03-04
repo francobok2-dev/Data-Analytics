@@ -1,8 +1,8 @@
-Portafolio de Data Analytics – Franco Bokhdjalian
+#Portafolio de Data Analytics – Franco Bokhdjalian
 
 Repositorio que contiene proyectos prácticos enfocados en análisis de datos, visualización y exploración con Excel, Power BI y Tableau.
 
-#🔹 Proyecto 1. Análisis de Producción (Excel)
+##🔹 Proyecto 1. Análisis de Producción (Excel)
 
 **Objetivo**:
 Desarrollar un dashboard interactivo en Excel para analizar la eficiencia productiva, los costos asociados y la distribución operativa por categoría, manager y período temporal.
@@ -44,7 +44,9 @@ Base de datos productiva con las siguientes variables:
 
 📁 **Archivo**: `Dashboard Produccion.xlsx`
 
-#🔹 Proyecto 2. Dashboard de Análisis Financiero y Transaccional (Excel)
+
+
+##🔹 Proyecto 2. Dashboard de Análisis Financiero y Transaccional (Excel)
 
 **Objetivo**:
 Desarrollar un dashboard en Excel para analizar el rendimiento financiero de una empresa a través del estudio de ingresos, gastos, ganancias y comportamiento transaccional por diferentes dimensiones de negocio.
@@ -92,3 +94,87 @@ Base de datos transaccional con las siguientes variables:
 El dashboard permite analizar el desempeño financiero desde múltiples perspectivas (producto, región, departamento y método de pago), facilitando la toma de decisiones estratégicas basadas en datos.
 
 📁 **Archivo:** `Dashboard_Transacciones.xlsx`
+
+
+
+##🔹 3. Dashboard Comercial y Análisis de Ventas con Promociones
+
+**Objetivo:**  
+Desarrollar un dashboard para analizar el rendimiento de ventas, rentabilidad de productos y efectividad de campañas promocionales, utilizando datos de clientes, productos y promociones.
+
+**Estructura del dataset:**
+
+El proyecto integra tres tablas principales:
+
+**1️⃣ Clientes**
+- ID Cliente
+- Nombre
+- Ciudad
+- Estado
+- Pincode
+- Email
+- Teléfono
+
+**2️⃣ Productos**
+- ID Producto
+- Nombre Producto
+- Categoria Producto
+- Precio
+
+**3️⃣ Promociones**
+- ID Promocion
+- Nombre Promocion
+- Tipo de anuncio
+- Código de cupón
+- Porcentaje descuento
+
+*Nota:* Los datos se encuentran en estado preliminar (sin limpieza)
+
+### 🛠 Herramientas utilizadas
+
+- Power BI Desktop
+- Power Query Editor
+- Segmentación de datos
+- Gráficos avanzados (barras apiladas, línea, dispersión, mapa geográfico)  
+- Integración de múltiples tablas
+
+## 📊 Métricas y análisis desarrollados
+
+### 📦 Performance de productos
+- Top 5 y Bottom 5 productos por:
+  - Ingresos
+  - Unidades vendidas
+  - Ganancia 
+
+### 📈 Tendencia de ventas
+- Evolución de ventas por período  
+
+### 💰 Análisis de rentabilidad
+- Ganancia vs monto neto de ventas  
+
+### 🎯 Análisis de promociones
+- Descuento promedio por categoría de promoción  
+
+### 🌍 Distribución geográfica
+- Ventas por ciudad  
+
+### 📌 KPIs generales
+- Número total de órdenes
+- Total de ventas
+- Total de ganancia
+- Cantidad total de unidades
+
+### 📋 Vista detallada
+- Tabla dinámica con todos los campos y filtros interactivos
+
+## 📊 Principales insights obtenibles
+
+- Identificación de productos más y menos rentables.
+- Evaluación del impacto de promociones en el volumen de ventas.
+- Detección de concentración geográfica de ingresos.
+- Relación entre volumen de ventas y margen de ganancia.
+- Análisis comparativo de desempeño por período.
+
+El dashboard integra datos de clientes, productos y promociones en una sola vista, permitiendo evaluar simultáneamente performance comercial, impacto promocional y comportamiento geográfico de ventas.
+
+📁 Archivo: `Dashboard_Ventas_Promociones.xlsx`
