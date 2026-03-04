@@ -138,36 +138,36 @@ El proyecto integra tres tablas principales:
 - Gráficos avanzados (barras apiladas, línea, dispersión, mapa geográfico)  
 - Integración de múltiples tablas
 
-## 📊 Métricas y análisis desarrollados
+### 📊 Métricas y análisis desarrollados
 
-### 📦 Performance de productos
+#### 📦 Performance de productos
 - Top 5 y Bottom 5 productos por:
   - Ingresos
   - Unidades vendidas
   - Ganancia 
 
-### 📈 Tendencia de ventas
+#### 📈 Tendencia de ventas
 - Evolución de ventas por período  
 
-### 💰 Análisis de rentabilidad
+#### 💰 Análisis de rentabilidad
 - Ganancia vs monto neto de ventas  
 
-### 🎯 Análisis de promociones
+#### 🎯 Análisis de promociones
 - Descuento promedio por categoría de promoción  
 
-### 🌍 Distribución geográfica
+#### 🌍 Distribución geográfica
 - Ventas por ciudad  
 
-### 📌 KPIs generales
+#### 📌 KPIs generales
 - Número total de órdenes
 - Total de ventas
 - Total de ganancia
 - Cantidad total de unidades
 
-### 📋 Vista detallada
+#### 📋 Vista detallada
 - Tabla dinámica con todos los campos y filtros interactivos
 
-## 📊 Principales insights obtenibles
+### 📊 Principales insights obtenibles
 
 - Identificación de productos más y menos rentables.
 - Evaluación del impacto de promociones en el volumen de ventas.
