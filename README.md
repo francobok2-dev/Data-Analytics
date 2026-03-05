@@ -2,7 +2,85 @@
 
 Repositorio que contiene proyectos prácticos enfocados en análisis de datos, visualización y exploración con Excel, Power BI y Tableau.
 
-## 🔹 Proyecto 1. Análisis de Producción (Excel)
+## 🔹 Proyecto 1. Pipeline de Datos Bancarios: SQL + Power BI
+
+**Objetivo:**  
+Desarrollar un flujo completo de procesamiento y análisis de datos bancarios utilizando SQL y Power BI. El proyecto incluye generación de datos simulados, corrección de inconsistencias, integración de múltiples tablas y análisis visual mediante dashboards interactivos.
+
+## 📂 Proceso del proyecto
+
+El proyecto se desarrolló en cuatro etapas principales:
+
+1️⃣ **Generación de datos**  
+Se utilizó **IA (Perplexity)** para generar código SQL que crea tres tablas iniciales:
+- Clientes (ID Cliente, Nombre, Género, Fecha de nacimiento, Dirección, Email, Teléfono, ID cuenta)
+- Cuentas (ID Cuenta, ID Cliente, Tipo, Fecha apertura, Balance)
+- Transacciones (ID Transacción, ID Cuenta, Fecha, Tipo, Monto, Descripción, Divisa)
+
+Estas tablas contienen **inconsistencias intencionales** para simular escenarios reales de calidad de datos.
+
+2️⃣ **Limpieza y corrección de datos**  
+Se generó código SQL adicional para identificar y corregir inconsistencias en los datos.
+
+3️⃣ **Integración de tablas**  
+Se creó una consulta SQL que realiza joins entre las tres tablas originales para generar una **tabla consolidada única**.
+
+4️⃣ **Análisis y visualización**  
+La tabla final fue utilizada en **Power BI** para construir un dashboard con múltiples métricas financieras y operativas.
+
+
+## 🗄 Estructura de la tabla final
+
+Se combinaron los campos de las tres tablas creadas en una tabla nueva única, que se usó como fuente de datos en Power BI.
+
+La tabla consolidada contiene información de transacciones, cuentas y clientes.
+
+Esta estructura permite analizar el comportamiento financiero combinando información de clientes, cuentas y transacciones.
+
+## 🛠 Herramientas utilizadas
+
+- **SQL Server**
+- **Power BI**
+- **DAX**
+- **IA Perplexity**
+
+## 📊 Métricas y análisis desarrollados
+
+### 🏦 Análisis de cuentas
+- **Cantidad de cuentas por tipo**
+- **Cuentas inactivas por año y mes**
+- **Saldo total por cliente**
+
+### 💰 Análisis financiero
+- **Sueldo total por tipo de cuenta**
+- **Monto total de transacciones por mes**
+- **Monto total por cliente**  
+  (Top 2 clientes con mayor monto mediante filtros)
+
+### 🔄 Actividad transaccional
+- **Cantidad de transacciones por tipo**
+
+### 👥 Perfil de clientes
+- **Clientes por grupo etario**
+- **Cantidad de clientes por género**
+
+## 📊 Principales insights obtenibles
+
+- Identificación de clientes con mayor volumen de transacciones.
+- Análisis del comportamiento financiero según tipo de cuenta.
+- Detección de cuentas inactivas en el tiempo.
+- Segmentación demográfica de clientes por edad y género.
+- Evaluación del volumen transaccional mensual.
+
+## 🚀 Valor agregado
+
+Este proyecto demuestra la capacidad de construir un pipeline completo de análisis de datos, incluyendo generación de datos, limpieza, integración mediante SQL y visualización con Power BI. Además, incorpora el uso de IA como herramienta de asistencia para desarrollo de consultas y modelado de datos, simulando un flujo de trabajo en análisis de datos.
+
+📁 Archivos incluidos: `Proyecto Transacciones-Cuentas-Clientes.pbix`
+
+
+
+## 🔹 Proyecto 2. Análisis de Producción (Excel)
 
 **Objetivo**:
 Desarrollar un dashboard interactivo en Excel para analizar la eficiencia productiva, los costos asociados y la distribución operativa por categoría, manager y período temporal.
@@ -46,7 +124,7 @@ Base de datos productiva con las siguientes variables:
 
 
 
-## 🔹 Proyecto 2. Dashboard de Análisis Financiero y Transaccional (Excel)
+## 🔹 Proyecto 3. Dashboard de Análisis Financiero y Transaccional (Excel)
 
 **Objetivo**:
 Desarrollar un dashboard en Excel para analizar el rendimiento financiero de una empresa a través del estudio de ingresos, gastos, ganancias y comportamiento transaccional por diferentes dimensiones de negocio.
@@ -93,11 +171,11 @@ Base de datos transaccional con las siguientes variables:
 
 El dashboard permite analizar el desempeño financiero desde múltiples perspectivas (producto, región, departamento y método de pago), facilitando la toma de decisiones estratégicas basadas en datos.
 
-📁 **Archivo:** `Dashboard_Transacciones.xlsx`
+📁 **Archivo:** `Dashboard Transacciones.xlsx`
 
 
 
-## 🔹 Proyecto 3. Dashboard Comercial y Análisis de Ventas con Promociones (Power BI)
+## 🔹 Proyecto 4. Dashboard Comercial y Análisis de Ventas con Promociones (Power BI)
 
 **Objetivo:**  
 Desarrollar un dashboard para analizar el rendimiento de ventas, rentabilidad de productos y efectividad de campañas promocionales, utilizando datos de clientes, productos y promociones.
@@ -180,7 +258,7 @@ El dashboard integra datos de clientes, productos y promociones en una sola vist
 📁 Archivo: `Dashboard Ventas-Ganancia.pbix`
 
 
-## 🔹 Proyecto 4. Dashboard de Análisis de Seguros
+## 🔹 Proyecto 5. Dashboard de Análisis de Seguros
 
 **Objetivo:**  
 Desarrollar un dashboard interactivo en Power BI para analizar el desempeño de pólizas de seguros, comportamiento de clientes y gestión de reclamos, permitiendo identificar patrones en primas, cobertura y estado de reclamos.
@@ -243,4 +321,4 @@ Variables principales:
 
 El dashboard permite analizar simultáneamente la información de pólizas, clientes y reclamos, facilitando la evaluación del desempeño del negocio asegurador y la identificación de patrones de riesgo y comportamiento de los asegurados.
 
-📁 Archivo: `Dashboard_Seguros.pbix`
+📁 Archivo: `Dashboard Empresa Seguros.pbix`
