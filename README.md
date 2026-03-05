@@ -178,3 +178,69 @@ El proyecto integra tres tablas principales:
 El dashboard integra datos de clientes, productos y promociones en una sola vista, permitiendo evaluar simultáneamente performance comercial, impacto promocional y comportamiento geográfico de ventas.
 
 📁 Archivo: `Dashboard Ventas-Ganancia.pbix`
+
+
+## 🔹 4. Dashboard de Análisis de Seguros
+
+**Objetivo:**  
+Desarrollar un dashboard interactivo en Power BI para analizar el desempeño de pólizas de seguros, comportamiento de clientes y gestión de reclamos, permitiendo identificar patrones en primas, cobertura y estado de reclamos.
+
+## 📂 Estructura del dataset
+
+El dataset contiene información relacionada con pólizas de seguros, clientes y reclamos asociados.
+
+Variables principales:
+
+- Número de póliza
+- ID Cliente
+- Género
+- Edad
+- Tipo de póliza
+- Fecha de comienzo de póliza
+- Fecha de fin de póliza
+- Monto de prima
+- Monto de cobertura
+- Número del reclamo
+- Fecha del reclamo
+- Monto del reclamo
+- Estado del reclamo
+
+## 🛠 Herramientas utilizadas
+
+- Power BI
+- SQL Server
+- Power Query Editor
+
+## 📊 Métricas y análisis desarrollados
+
+### 💰 Análisis de primas
+- **Monto de prima por tipo de póliza**  
+
+### 📑 Estado de pólizas
+- **Cantidad de pólizas activas e inactivas**  
+
+### 👥 Perfil de clientes
+- **Cantidad de clientes por género**  
+
+### 📈 Análisis de reclamos
+- **Monto de reclamación por grupo etario**  
+
+### 🛡 Cobertura y estado de reclamos
+- **Monto de cobertura por tipo de póliza y estado del reclamo**  
+
+### 📌 Gestión de reclamos
+- **Cantidad de reclamos por estado del reclamo**
+
+## 📊 Principales insights obtenibles
+
+- Identificación de tipos de póliza con mayor volumen de primas.
+- Distribución demográfica de clientes asegurados.
+- Análisis del comportamiento de reclamaciones según edad.
+- Evaluación de la relación entre cobertura y estado de los reclamos.
+- Detección de tendencias en el procesamiento de reclamaciones.
+
+## 🚀 Valor agregado
+
+El dashboard permite analizar simultáneamente la información de pólizas, clientes y reclamos, facilitando la evaluación del desempeño del negocio asegurador y la identificación de patrones de riesgo y comportamiento de los asegurados.
+
+📁 Archivo: `Dashboard_Seguros.pbix`
