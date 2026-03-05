@@ -2,7 +2,7 @@
 
 Repositorio que contiene proyectos prácticos enfocados en análisis de datos, visualización y exploración con Excel, Power BI y Tableau.
 
-## 🔹 Proyecto 1. Pipeline de Datos Bancarios: SQL + Power BI
+## 🔹 Proyecto 1. Pipeline de Datos Bancarios: SQL + Power BI + IA Generativa
 
 **Objetivo:**  
 Desarrollar un flujo completo de procesamiento y análisis de datos bancarios utilizando SQL y Power BI. El proyecto incluye generación de datos simulados, corrección de inconsistencias, integración de múltiples tablas y análisis visual mediante dashboards interactivos.
