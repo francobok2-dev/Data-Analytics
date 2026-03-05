@@ -325,7 +325,7 @@ El dashboard permite analizar simultáneamente la información de pólizas, clie
 
 
 
-## 🔹 7. Análisis de Ventas y Rentabilidad (Tableau)
+## 🔹 Proyecto 6. Análisis de Ventas y Rentabilidad (Tableau)
 
 **Objetivo:**  
 Desarrollar un dashboard interactivo en Tableau para analizar el desempeño comercial de una empresa, identificando patrones de ventas, rentabilidad y comportamiento de clientes a través de diferentes regiones, segmentos y categorías de productos.
@@ -398,3 +398,6 @@ Esta estructura permite analizar el rendimiento comercial desde múltiples persp
 El dashboard permite explorar el desempeño comercial desde diferentes perspectivas (regional, temporal y por segmento de cliente), facilitando la identificación de oportunidades de mejora en ventas y rentabilidad.
 
 📁 Archivos incluidos: `Dashboard Ventas-Productos-Clientes - Tableau.twb`
+
+<img width="1131" height="675" alt="Captura de pantalla (519)" src="https://github.com/user-attachments/assets/9f6c4b6b-4aa8-4e24-804d-83ab2a610a34" />
+
