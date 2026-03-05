@@ -322,3 +322,79 @@ Variables principales:
 El dashboard permite analizar simultáneamente la información de pólizas, clientes y reclamos, facilitando la evaluación del desempeño del negocio asegurador y la identificación de patrones de riesgo y comportamiento de los asegurados.
 
 📁 Archivo: `Dashboard Empresa Seguros.pbix`
+
+
+
+## 🔹 7. Análisis de Ventas y Rentabilidad (Tableau)
+
+**Objetivo:**  
+Desarrollar un dashboard interactivo en Tableau para analizar el desempeño comercial de una empresa, identificando patrones de ventas, rentabilidad y comportamiento de clientes a través de diferentes regiones, segmentos y categorías de productos.
+
+## 📂 Estructura del dataset
+
+El dataset contiene información detallada sobre pedidos, clientes, productos y logística de envíos.
+
+Variables incluidas:
+
+- ID fila
+- ID Orden
+- Fecha Orden
+- Prioridad de la orden
+- Cantidad
+- Monto
+- Descuento
+- Modo de envío
+- Ganancia
+- Precio unitario
+- Costo de envío
+- Nombre del cliente
+- Ciudad
+- Código postal
+- Estado
+- Región
+- Segmento del cliente
+- Categoría del producto
+- Subcategoría del producto
+- Nombre del producto
+- Envase del producto
+- Márgen de beneficio
+- Fecha de envío
+
+Esta estructura permite analizar el rendimiento comercial desde múltiples perspectivas: geográfica, demográfica y operativa.
+
+## 🛠 Herramientas utilizadas
+
+**Tableau**
+- Visualización interactiva de datos
+- Creación de dashboards analíticos
+- Exploración de datos comerciales
+**Excel** como fuente de datos.
+
+## 📊 Métricas y análisis desarrollados
+
+### 🌍 Desempeño regional
+- **Ganancias por región y segmento de clientes**
+
+### 📊 Participación de mercado
+- **Porcentaje de contribución de ventas por región**
+
+### 💰 Análisis de rentabilidad
+- **Relación entre ventas y ganancias**  
+  (Análisis de correlación entre volumen de ventas y margen de beneficio)
+
+### 📦 Actividad comercial
+- **Cantidad de productos vendidos por mes**  
+  (Análisis temporal del volumen de ventas)
+
+## 📊 Principales insights obtenibles
+
+- Identificación de regiones con mayor rentabilidad.
+- Comparación del desempeño entre segmentos de clientes.
+- Análisis de la relación entre volumen de ventas y margen de ganancia.
+- Detección de tendencias estacionales en el volumen de productos vendidos.
+
+## 🚀 Valor agregado
+
+El dashboard permite explorar el desempeño comercial desde diferentes perspectivas (regional, temporal y por segmento de cliente), facilitando la identificación de oportunidades de mejora en ventas y rentabilidad.
+
+📁 Archivos incluidos: `Dashboard Ventas-Productos-Clientes - Tableau.twb`
