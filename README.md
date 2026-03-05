@@ -78,6 +78,9 @@ Este proyecto demuestra la capacidad de construir un pipeline completo de análi
 
 📁 Archivos incluidos: `Proyecto Transacciones-Cuentas-Clientes.pbix`
 
+<img width="785" height="503" alt="Captura de pantalla (520)" src="https://github.com/user-attachments/assets/1bcdefca-2995-4d01-8890-7476bac3506c" />
+
+<img width="783" height="496" alt="Captura de pantalla (521)" src="https://github.com/user-attachments/assets/59bfdbd3-c7db-4815-99fe-0b37bf2fec44" />
 
 
 ## 🔹 Proyecto 2. Análisis de Producción (Excel)
@@ -122,9 +125,87 @@ Base de datos productiva con las siguientes variables:
 
 📁 **Archivo**: `Dashboard Produccion.xlsx`
 
+<img width="1039" height="563" alt="Captura de pantalla (522)" src="https://github.com/user-attachments/assets/f41b2894-ae3b-437e-a440-6f90b10be0d1" />
 
+<img width="1014" height="572" alt="Captura de pantalla (523)" src="https://github.com/user-attachments/assets/e91f4de5-d2a6-4b05-ad49-65fddbaad641" />
 
-## 🔹 Proyecto 3. Dashboard de Análisis Financiero y Transaccional (Excel)
+## 🔹 Proyecto 3. Análisis de Ventas y Rentabilidad (Tableau)
+
+**Objetivo:**  
+Desarrollar un dashboard interactivo en Tableau para analizar el desempeño comercial de una empresa, identificando patrones de ventas, rentabilidad y comportamiento de clientes a través de diferentes regiones, segmentos y categorías de productos.
+
+## 📂 Estructura del dataset
+
+El dataset contiene información detallada sobre pedidos, clientes, productos y logística de envíos.
+
+Variables incluidas:
+
+- ID fila
+- ID Orden
+- Fecha Orden
+- Prioridad de la orden
+- Cantidad
+- Monto
+- Descuento
+- Modo de envío
+- Ganancia
+- Precio unitario
+- Costo de envío
+- Nombre del cliente
+- Ciudad
+- Código postal
+- Estado
+- Región
+- Segmento del cliente
+- Categoría del producto
+- Subcategoría del producto
+- Nombre del producto
+- Envase del producto
+- Márgen de beneficio
+- Fecha de envío
+
+Esta estructura permite analizar el rendimiento comercial desde múltiples perspectivas: geográfica, demográfica y operativa.
+
+## 🛠 Herramientas utilizadas
+
+**Tableau**
+- Visualización interactiva de datos
+- Creación de dashboards analíticos
+- Exploración de datos comerciales
+**Excel** como fuente de datos.
+
+## 📊 Métricas y análisis desarrollados
+
+### 🌍 Desempeño regional
+- **Ganancias por región y segmento de clientes**
+
+### 📊 Participación de mercado
+- **Porcentaje de contribución de ventas por región**
+
+### 💰 Análisis de rentabilidad
+- **Relación entre ventas y ganancias**  
+  (Análisis de correlación entre volumen de ventas y margen de beneficio)
+
+### 📦 Actividad comercial
+- **Cantidad de productos vendidos por mes**  
+  (Análisis temporal del volumen de ventas)
+
+## 📊 Principales insights obtenibles
+
+- Identificación de regiones con mayor rentabilidad.
+- Comparación del desempeño entre segmentos de clientes.
+- Análisis de la relación entre volumen de ventas y margen de ganancia.
+- Detección de tendencias estacionales en el volumen de productos vendidos.
+
+## 🚀 Valor agregado
+
+El dashboard permite explorar el desempeño comercial desde diferentes perspectivas (regional, temporal y por segmento de cliente), facilitando la identificación de oportunidades de mejora en ventas y rentabilidad.
+
+📁 Archivos incluidos: `Dashboard Ventas-Productos-Clientes - Tableau.twb`
+
+<img width="1131" height="675" alt="Captura de pantalla (519)" src="https://github.com/user-attachments/assets/9f6c4b6b-4aa8-4e24-804d-83ab2a610a34" />
+
+## 🔹 Proyecto 4. Dashboard de Análisis Financiero y Transaccional (Excel)
 
 **Objetivo**:
 Desarrollar un dashboard en Excel para analizar el rendimiento financiero de una empresa a través del estudio de ingresos, gastos, ganancias y comportamiento transaccional por diferentes dimensiones de negocio.
@@ -173,9 +254,12 @@ El dashboard permite analizar el desempeño financiero desde múltiples perspect
 
 📁 **Archivo:** `Dashboard Transacciones.xlsx`
 
+<img width="1050" height="591" alt="Captura de pantalla (525)" src="https://github.com/user-attachments/assets/2ba141b8-9f30-4887-8438-933ad76abb2b" />
+
+<img width="631" height="418" alt="Captura de pantalla (526)" src="https://github.com/user-attachments/assets/0ae51b98-0bae-482f-a0d4-08694933f77f" />
 
 
-## 🔹 Proyecto 4. Dashboard Comercial y Análisis de Ventas con Promociones (Power BI)
+## 🔹 Proyecto 5. Dashboard Comercial y Análisis de Ventas con Promociones (Power BI)
 
 **Objetivo:**  
 Desarrollar un dashboard para analizar el rendimiento de ventas, rentabilidad de productos y efectividad de campañas promocionales, utilizando datos de clientes, productos y promociones.
@@ -258,7 +342,8 @@ El dashboard integra datos de clientes, productos y promociones en una sola vist
 📁 Archivo: `Dashboard Ventas-Ganancia.pbix`
 
 
-## 🔹 Proyecto 5. Dashboard de Análisis de Seguros
+
+## 🔹 Proyecto 6. Dashboard de Análisis de Seguros
 
 **Objetivo:**  
 Desarrollar un dashboard interactivo en Power BI para analizar el desempeño de pólizas de seguros, comportamiento de clientes y gestión de reclamos, permitiendo identificar patrones en primas, cobertura y estado de reclamos.
@@ -323,81 +408,4 @@ El dashboard permite analizar simultáneamente la información de pólizas, clie
 
 📁 Archivo: `Dashboard Empresa Seguros.pbix`
 
-
-
-## 🔹 Proyecto 6. Análisis de Ventas y Rentabilidad (Tableau)
-
-**Objetivo:**  
-Desarrollar un dashboard interactivo en Tableau para analizar el desempeño comercial de una empresa, identificando patrones de ventas, rentabilidad y comportamiento de clientes a través de diferentes regiones, segmentos y categorías de productos.
-
-## 📂 Estructura del dataset
-
-El dataset contiene información detallada sobre pedidos, clientes, productos y logística de envíos.
-
-Variables incluidas:
-
-- ID fila
-- ID Orden
-- Fecha Orden
-- Prioridad de la orden
-- Cantidad
-- Monto
-- Descuento
-- Modo de envío
-- Ganancia
-- Precio unitario
-- Costo de envío
-- Nombre del cliente
-- Ciudad
-- Código postal
-- Estado
-- Región
-- Segmento del cliente
-- Categoría del producto
-- Subcategoría del producto
-- Nombre del producto
-- Envase del producto
-- Márgen de beneficio
-- Fecha de envío
-
-Esta estructura permite analizar el rendimiento comercial desde múltiples perspectivas: geográfica, demográfica y operativa.
-
-## 🛠 Herramientas utilizadas
-
-**Tableau**
-- Visualización interactiva de datos
-- Creación de dashboards analíticos
-- Exploración de datos comerciales
-**Excel** como fuente de datos.
-
-## 📊 Métricas y análisis desarrollados
-
-### 🌍 Desempeño regional
-- **Ganancias por región y segmento de clientes**
-
-### 📊 Participación de mercado
-- **Porcentaje de contribución de ventas por región**
-
-### 💰 Análisis de rentabilidad
-- **Relación entre ventas y ganancias**  
-  (Análisis de correlación entre volumen de ventas y margen de beneficio)
-
-### 📦 Actividad comercial
-- **Cantidad de productos vendidos por mes**  
-  (Análisis temporal del volumen de ventas)
-
-## 📊 Principales insights obtenibles
-
-- Identificación de regiones con mayor rentabilidad.
-- Comparación del desempeño entre segmentos de clientes.
-- Análisis de la relación entre volumen de ventas y margen de ganancia.
-- Detección de tendencias estacionales en el volumen de productos vendidos.
-
-## 🚀 Valor agregado
-
-El dashboard permite explorar el desempeño comercial desde diferentes perspectivas (regional, temporal y por segmento de cliente), facilitando la identificación de oportunidades de mejora en ventas y rentabilidad.
-
-📁 Archivos incluidos: `Dashboard Ventas-Productos-Clientes - Tableau.twb`
-
-<img width="1131" height="675" alt="Captura de pantalla (519)" src="https://github.com/user-attachments/assets/9f6c4b6b-4aa8-4e24-804d-83ab2a610a34" />
-
+<img width="1004" height="590" alt="Captura de pantalla (527)" src="https://github.com/user-attachments/assets/5fbd789d-0c07-4fde-96a4-8ee6301f30f0" />
