@@ -97,7 +97,7 @@ El dashboard permite analizar el desempeño financiero desde múltiples perspect
 
 
 
-## 🔹 3. Dashboard Comercial y Análisis de Ventas con Promociones (Power BI)
+## 🔹 Proyecto 3. Dashboard Comercial y Análisis de Ventas con Promociones (Power BI)
 
 **Objetivo:**  
 Desarrollar un dashboard para analizar el rendimiento de ventas, rentabilidad de productos y efectividad de campañas promocionales, utilizando datos de clientes, productos y promociones.
@@ -180,7 +180,7 @@ El dashboard integra datos de clientes, productos y promociones en una sola vist
 📁 Archivo: `Dashboard Ventas-Ganancia.pbix`
 
 
-## 🔹 4. Dashboard de Análisis de Seguros
+## 🔹 Proyecto 4. Dashboard de Análisis de Seguros
 
 **Objetivo:**  
 Desarrollar un dashboard interactivo en Power BI para analizar el desempeño de pólizas de seguros, comportamiento de clientes y gestión de reclamos, permitiendo identificar patrones en primas, cobertura y estado de reclamos.
