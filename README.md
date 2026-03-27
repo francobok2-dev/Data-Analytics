@@ -2,7 +2,7 @@
 
 Repositorio que contiene proyectos prácticos enfocados en análisis de datos, visualización y exploración con Excel, Power BI y Tableau.
 
-## 🔹 Proyecto 1. Pipeline de Datos Bancarios: SQL + Power BI + IA Generativa
+<!--## 🔹 Proyecto 1. Pipeline de Datos Bancarios: SQL + Power BI + IA Generativa
 
 **Objetivo:**  
 Desarrollar un flujo completo de procesamiento y análisis de datos bancarios utilizando SQL y Power BI. El proyecto incluye generación de datos simulados, corrección de inconsistencias, integración de múltiples tablas y análisis visual mediante dashboards interactivos.
@@ -81,9 +81,9 @@ Este proyecto demuestra la capacidad de construir un pipeline completo de análi
 <img width="785" height="503" alt="Captura de pantalla (520)" src="https://github.com/user-attachments/assets/1bcdefca-2995-4d01-8890-7476bac3506c" />
 
 <img width="783" height="496" alt="Captura de pantalla (521)" src="https://github.com/user-attachments/assets/59bfdbd3-c7db-4815-99fe-0b37bf2fec44" />
+-->
 
-
-## 🔹 Proyecto 2. Análisis de Producción (Excel)
+## 🔹 Proyecto 1. Análisis de Producción (Excel)
 
 **Objetivo**:
 Desarrollar un dashboard interactivo en Excel para analizar la eficiencia productiva, los costos asociados y la distribución operativa por categoría, manager y período temporal.
@@ -129,7 +129,7 @@ Base de datos productiva con las siguientes variables:
 
 <img width="1014" height="572" alt="Captura de pantalla (523)" src="https://github.com/user-attachments/assets/e91f4de5-d2a6-4b05-ad49-65fddbaad641" />
 
-## 🔹 Proyecto 3. Análisis de Ventas y Rentabilidad (Tableau)
+## 🔹 Proyecto 2. Análisis de Ventas y Rentabilidad (Tableau)
 
 **Objetivo:**  
 Desarrollar un dashboard interactivo en Tableau para analizar el desempeño comercial de una empresa, identificando patrones de ventas, rentabilidad y comportamiento de clientes a través de diferentes regiones, segmentos y categorías de productos.
@@ -205,7 +205,7 @@ El dashboard permite explorar el desempeño comercial desde diferentes perspecti
 
 <img width="1131" height="675" alt="Captura de pantalla (519)" src="https://github.com/user-attachments/assets/9f6c4b6b-4aa8-4e24-804d-83ab2a610a34" />
 
-## 🔹 Proyecto 4. Dashboard de Análisis Financiero y Transaccional (Excel)
+## 🔹 Proyecto 3. Dashboard de Análisis Financiero y Transaccional (Excel)
 
 **Objetivo**:
 Desarrollar un dashboard en Excel para analizar el rendimiento financiero de una empresa a través del estudio de ingresos, gastos, ganancias y comportamiento transaccional por diferentes dimensiones de negocio.
@@ -259,7 +259,7 @@ El dashboard permite analizar el desempeño financiero desde múltiples perspect
 <img width="631" height="418" alt="Captura de pantalla (526)" src="https://github.com/user-attachments/assets/0ae51b98-0bae-482f-a0d4-08694933f77f" />
 
 
-## 🔹 Proyecto 5. Dashboard Comercial y Análisis de Ventas con Promociones (Power BI)
+## 🔹 Proyecto 4. Dashboard Comercial y Análisis de Ventas con Promociones (Power BI)
 
 **Objetivo:**  
 Desarrollar un dashboard para analizar el rendimiento de ventas, rentabilidad de productos y efectividad de campañas promocionales, utilizando datos de clientes, productos y promociones.
@@ -343,7 +343,7 @@ El dashboard integra datos de clientes, productos y promociones en una sola vist
 
 
 
-## 🔹 Proyecto 6. Dashboard de Análisis de Seguros
+## 🔹 Proyecto 5. Dashboard de Análisis de Seguros
 
 **Objetivo:**  
 Desarrollar un dashboard interactivo en Power BI para analizar el desempeño de pólizas de seguros, comportamiento de clientes y gestión de reclamos, permitiendo identificar patrones en primas, cobertura y estado de reclamos.
