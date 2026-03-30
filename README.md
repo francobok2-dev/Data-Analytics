@@ -345,67 +345,104 @@ El dashboard integra datos de clientes, productos y promociones en una sola vist
 
 ## 🔹 Proyecto 5. Dashboard de Análisis de Seguros
 
-**Objetivo:**  
-Desarrollar un dashboard interactivo en Power BI para analizar el desempeño de pólizas de seguros, comportamiento de clientes y gestión de reclamos, permitiendo identificar patrones en primas, cobertura y estado de reclamos.
+### 🎯 Objetivo
+Desarrollar un dashboard interactivo en Power BI orientado al análisis del negocio asegurador, con foco en la evaluación de rentabilidad, comportamiento de clientes y gestión de reclamos.
+
+El objetivo principal es transformar datos operativos en información útil para la toma de decisiones, mediante el análisis de métricas clave como primas, cobertura, siniestralidad y comportamiento de siniestros.
+
+---
 
 ## 📂 Estructura del dataset
 
-El dataset contiene información relacionada con pólizas de seguros, clientes y reclamos asociados.
+El dataset integra información de pólizas, clientes y reclamos, permitiendo un análisis integral del ciclo de vida del seguro.
 
-Variables principales:
+### 📑 Pólizas
+- Número de póliza  
+- Tipo de póliza  
+- Fecha de inicio  
+- Fecha de fin  
+- Monto de prima  
+- Monto de cobertura  
 
-- Número de póliza
-- ID Cliente
-- Género
-- Edad
-- Tipo de póliza
-- Fecha de comienzo de póliza
-- Fecha de fin de póliza
-- Monto de prima
-- Monto de cobertura
-- Número del reclamo
-- Fecha del reclamo
-- Monto del reclamo
-- Estado del reclamo
+### 👥 Clientes
+- ID Cliente  
+- Género  
+- Edad  
+
+### 📊 Reclamos
+- Número de reclamo  
+- Fecha del reclamo  
+- Monto del reclamo  
+- Estado del reclamo (aprobado, rechazado, pendiente)  
+
+---
 
 ## 🛠 Herramientas utilizadas
 
-- Power BI
-- SQL Server
-- Power Query Editor
+- **Power BI** → Visualización y desarrollo del dashboard  
+- **SQL Server** → Extracción y modelado de datos  
+- **Power Query** → Limpieza y transformación de datos  
+- **DAX** → Creación de métricas y KPIs  
+
+---
 
 ## 📊 Métricas y análisis desarrollados
 
-### 💰 Análisis de primas
-- **Monto de prima por tipo de póliza**  
+Se construyeron indicadores clave orientados a evaluar el desempeño del negocio desde distintas perspectivas:
 
-### 📑 Estado de pólizas
-- **Cantidad de pólizas activas e inactivas**  
+### 💰 Primas y cobertura
+- Monto total de primas  
+- Monto total de cobertura  
 
-### 👥 Perfil de clientes
-- **Cantidad de clientes por género**  
+### 📈 Reclamos
+- Cantidad total de reclamos  
+- Monto total reclamado  
+- Reclamos por estado (aprobado / rechazado / pendiente)  
 
-### 📈 Análisis de reclamos
-- **Monto de reclamación por grupo etario**  
+### 🛡 Rentabilidad y riesgo
+- Índice de siniestralidad  
+  *(Relación entre el monto reclamado y el monto de primas)*  
+- Costo promedio por reclamo  
 
-### 🛡 Cobertura y estado de reclamos
-- **Monto de cobertura por tipo de póliza y estado del reclamo**  
+### 👥 Segmentación de clientes
+- Distribución por género  
+- Distribución por rango etario  
+- Análisis por tipo de póliza  
 
-### 📌 Gestión de reclamos
-- **Cantidad de reclamos por estado del reclamo**
+### ⏱ Análisis temporal
+- Monto reclamado por año  
+- Distribución del tiempo hasta el reclamo *(días desde inicio de póliza)*  
 
-## 📊 Principales insights obtenibles
+---
 
-- Identificación de tipos de póliza con mayor volumen de primas.
-- Distribución demográfica de clientes asegurados.
-- Análisis del comportamiento de reclamaciones según edad.
-- Evaluación de la relación entre cobertura y estado de los reclamos.
-- Detección de tendencias en el procesamiento de reclamaciones.
+## 📊 Principales insights obtenidos
 
-## 🚀 Valor agregado
+- El índice de siniestralidad (2,83) evidencia un escenario de baja rentabilidad, con costos de siniestros significativamente superiores a las primas.  
+- Las pólizas de tipo Viajes presentan el mayor nivel de pérdida, posicionándose como el segmento de mayor riesgo dentro del portfolio.  
+- En 2024 se registra el mayor volumen de montos reclamados, lo que sugiere un incremento en la siniestralidad durante ese período.  
+- Se observa una proporción elevada de reclamos rechazados, lo que podría indicar oportunidades de mejora en los procesos de validación o en la suscripción de pólizas.  
+- La siniestralidad se mantiene alta y relativamente homogénea entre los distintos tipos de póliza, lo que sugiere un problema estructural del negocio.  
+- La distribución del tiempo hasta el reclamo es uniforme, sin concentraciones marcadas, lo que indica un comportamiento de riesgo estable a lo largo del ciclo de vida de la póliza.  
 
-El dashboard permite analizar simultáneamente la información de pólizas, clientes y reclamos, facilitando la evaluación del desempeño del negocio asegurador y la identificación de patrones de riesgo y comportamiento de los asegurados.
+---
 
-📁 Archivo: `Dashboard Empresa Seguros.pbix`
+## 🚀 Valor del proyecto
 
-<img width="1004" height="590" alt="Captura de pantalla (527)" src="https://github.com/user-attachments/assets/5fbd789d-0c07-4fde-96a4-8ee6301f30f0" />
+Este dashboard permite:
+
+- Evaluar la rentabilidad del negocio asegurador  
+- Identificar segmentos de mayor riesgo  
+- Analizar el comportamiento de los reclamos  
+- Detectar oportunidades de mejora en procesos operativos  
+- Transformar datos en insights accionables para la toma de decisiones 
+
+---
+
+📁 **Archivo:** `Dashboard Empresa Seguros.pbix`
+
+---
+
+## 🖼 Vista del dashboard
+
+<img width="1007" height="577" alt="Captura de pantalla (536)" src="https://github.com/user-attachments/assets/7260e69d-be1d-401f-9b70-b739a196cd72" />
+
