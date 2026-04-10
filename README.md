@@ -205,58 +205,56 @@ El dashboard permite explorar el desempeño comercial desde diferentes perspecti
 
 <img width="1131" height="675" alt="Captura de pantalla (519)" src="https://github.com/user-attachments/assets/9f6c4b6b-4aa8-4e24-804d-83ab2a610a34" />
 
-## 🔹 Proyecto 3. Dashboard de Análisis Financiero y Transaccional (Excel)
+## Proyecto 3. 📊 Análisis de Rentabilidad de un Negocio con Excel
 
-**Objetivo**:
-Desarrollar un dashboard en Excel para analizar el rendimiento financiero de una empresa a través del estudio de ingresos, gastos, ganancias y comportamiento transaccional por diferentes dimensiones de negocio.
+¿Cómo impactan los descuentos, los clientes y las decisiones operativas en la rentabilidad de un negocio?
 
-**Dataset**:
-Base de datos transaccional con las siguientes variables:
-- Transaction_ID
-- Fecha de transacción
-- Ingresos
-- Gastos
-- Ganancia
-- Categoría
-- Región
-- Departamento
-- Tipo de producto
-- Grupo de clientes
-- Método de pago
-- Descuento
+A partir de un dataset de transacciones, desarrollé un dashboard en Excel enfocado en identificar los principales drivers de rentabilidad y detectar oportunidades de mejora.
 
-**Herramientas utilizadas:**
-- Microsoft Excel  
-- Tablas dinámicas  
-- Gráficos dinámicos (columnas, barras, líneas, circular y área)  
-- Cálculo de métricas financieras  
+## 🎯 Objetivo del proyecto
 
-**Métricas analizadas:**
+Analizar los factores que influyen en la rentabilidad del negocio y transformar datos transaccionales en información útil para la toma de decisiones.
 
-- 💳 Ganancia total por método de pago  
+## 📌 Análisis realizados
 
-- 📦 Ingresos totales por tipo de producto  
+El proyecto incluye el análisis de variables clave como:
 
-- 📈 Ingresos, gastos y ganancia total por categoría  
+- Rentabilidad por línea de producto
+- Impacto de los descuentos en el margen
+- Performance por región
+- Margen de ganancia por método de pago
+- Segmentación de clientes y su rentabilidad
+- Evolución temporal de la rentabilidad (mes/año)
+- Porcentaje de transacciones que generan pérdidas
 
-- 🏢 Gastos totales por departamento
+## 🔍 Principales insights obtenidos
+- África se posiciona como la región más rentable, mientras que Asia-Oceanía presenta el menor margen y el mayor porcentaje de transacciones con pérdida, lo que sugiere una oportunidad clara de mejora.
+- La línea de Salud combina alto volumen de ingresos con una rentabilidad elevada, mientras que Muebles, a pesar de generar menor volumen, mantiene un margen alto. En contraste, Ropa presenta el peor desempeño relativo.
+- El segmento PyME concentra la mayor cantidad de transacciones, pero con menor rentabilidad promedio. Por el contrario, los consumidores finales, con menor volumen, muestran un margen significativamente superior.
+- Se identifican caídas marcadas en la rentabilidad a lo largo del tiempo, siendo julio 2022 el punto más crítico. Un análisis adicional sugiere que esto podría estar vinculado a cambios en la composición de las transacciones, particularmente un mayor peso de regiones con menor rentabilidad como Asia-Oceanía.
+- El análisis por método de pago muestra diferencias en el margen, lo que puede estar asociado a costos operativos o estrategias comerciales diferenciadas.
 
-- 🌎 Cantidad de transacciones por región
+## 🛠️ Proceso de trabajo
+- Limpieza y transformación de datos
+- Creación de variables derivadas (margen por transacción, rangos de descuento)
+- Construcción de tablas dinámicas
+- Diseño de dashboards enfocados en la toma de decisiones
 
-**Principales insights obtenibles:**
-- Identificación de métodos de pago más rentables.
-- Detección de líneas de producto con mayor generación de ingresos.
-- Comparación de desempeño financiero entre categorías.
-- Análisis de concentración de gastos por departamento.
-- Evaluación de distribución geográfica de la actividad comercial.
+## 🚀 Valor del proyecto
 
-El dashboard permite analizar el desempeño financiero desde múltiples perspectivas (producto, región, departamento y método de pago), facilitando la toma de decisiones estratégicas basadas en datos.
+Este análisis permite:
 
-📁 **Archivo:** `Dashboard Transacciones.xlsx`
+Comprender qué factores impactan la rentabilidad
+Detectar segmentos, productos y regiones críticas
+Identificar oportunidades de mejora en la operación
+Transformar datos en insights accionables
 
-<img width="1050" height="591" alt="Captura de pantalla (525)" src="https://github.com/user-attachments/assets/2ba141b8-9f30-4887-8438-933ad76abb2b" />
+📁 Archivos incluidos: `Dashboard Transacciones 2026.xlsx`
 
-<img width="631" height="418" alt="Captura de pantalla (526)" src="https://github.com/user-attachments/assets/0ae51b98-0bae-482f-a0d4-08694933f77f" />
+<img width="1385" height="573" alt="Captura de pantalla (546)" src="https://github.com/user-attachments/assets/d3a2dde3-af41-46df-bfdf-9db6e4a19cf0" />
+
+<img width="1382" height="577" alt="Captura de pantalla (547)" src="https://github.com/user-attachments/assets/2f47e72b-decb-49d3-9373-5636480b322b" />
+
 
 
 ## 🔹 Proyecto 4. Dashboard Comercial y Análisis de Ventas con Promociones (Power BI)
