@@ -340,7 +340,6 @@ El dashboard integra datos de clientes, productos y promociones en una sola vist
 📁 Archivo: `Dashboard Ventas-Ganancia.pbix`
 
 
-
 ## 🔹 Proyecto 5. Dashboard de Análisis de Seguros
 
 ### 🎯 Objetivo
@@ -444,3 +443,77 @@ Este dashboard permite:
 
 <img width="1007" height="577" alt="Captura de pantalla (536)" src="https://github.com/user-attachments/assets/7260e69d-be1d-401f-9b70-b739a196cd72" />
 
+## Proyecto 6: Análisis de Eficiencia Comercial
+
+### 🎯 Objetivo
+
+Analizar el impacto de los descuentos, el volumen de ventas y las características de productos y clientes sobre la eficiencia comercial de un negocio.
+
+El proyecto busca identificar qué factores impulsan o deterioran el rendimiento comercial, detectando oportunidades de optimización en la estrategia de precios, promociones y segmentación.
+
+### 📂 Estructura del dataset
+
+El modelo de datos está basado en un esquema estrella, con una tabla de hechos central y tres dimensiones:
+
+- Ventas: Fecha, ID Cliente, ID Producto, ID Promoción, Importe Total, Importe Neto, Porcentaje de Descuento, Unidades, Precio Unitario, Valor de Descuento
+- Clientes: ID, Nombre, Ciudad, Provincia, Email
+- Productos: ID, Nombre, Precio, Categoría
+- Promociones: ID, Nombre, % Descuento, Código de Cupón, Tipo de Anuncio
+
+Se realizaron procesos de limpieza, transformación y enriquecimiento de datos para garantizar consistencia y permitir análisis más profundos.
+
+### 🛠 Herramientas utilizadas
+Power BI (modelado de datos y visualización)
+DAX (creación de métricas y KPIs)
+Power Query (limpieza y transformación de datos)
+
+### 📊 Métricas y análisis desarrollados
+Ventas Netas y Ventas Brutas
+Eficiencia comercial por categoría
+Ventas netas para cada promoción
+Descuento promedio para cada categoría
+Análisis de ventas netas y eficiencia en ciudades, clientes y productos
+Relación entre unidades vendidas y facturación
+Relación entre eficiencia y facturación por producto
+
+
+### Análisis principales:
+
+Evolución temporal de ventas y eficiencia
+Relación entre ventas, volumen y eficiencia (análisis multivariable)
+Impacto de los descuentos en el rendimiento comercial
+Performance por categoría de producto
+Análisis por promociones
+Segmentación geográfica
+Análisis de clientes (top por ventas y eficiencia)
+Identificación de productos con baja eficiencia
+
+📊 Principales insights obtenidos
+- La ciudad de Resistencia presenta la menor eficiencia comercial, asociada a un alto nivel de descuentos sin un incremento significativo en el volumen de ventas, lo que evidencia una estrategia promocional poco efectiva.
+
+- En contraste, ciudades como Paraná muestran altos niveles de eficiencia pero bajo volumen de ventas, lo que sugiere potencial de crecimiento mediante estrategias comerciales controladas.
+
+- Los clientes con mayor volumen de compra no necesariamente son los más eficientes, lo que indica que el ingreso generado no siempre está alineado con la rentabilidad operativa.
+
+- A nivel producto, la olla a presión se posiciona como uno de los menos eficientes, con bajo volumen de ventas y alto impacto de descuentos, lo que sugiere la necesidad de revisar su estrategia comercial.
+
+- Se observa una relación clara entre volumen, ventas y eficiencia: no siempre vender más implica ser más eficiente, lo que refuerza la importancia de analizar múltiples variables en conjunto.
+
+🚀 Valor del proyecto
+
+Este dashboard permite:
+
+- Identificar productos y categorías que generan valor real vs aquellos dependientes de descuentos
+- Optimizar estrategias de precios y promociones
+- Detectar oportunidades de mejora en mercados específicos
+- Analizar el comportamiento de clientes en términos de eficiencia
+- Tomar decisiones basadas en datos para mejorar el rendimiento comercial
+
+📁 **Archivo:** `Analisis Eficiencia Comercial.pbix`
+
+### 🖼 Vista del dashboard
+
+<img width="1112" height="619" alt="Captura de pantalla (563)" src="https://github.com/user-attachments/assets/ae70ae7f-ea59-48e4-8945-de30561ae189" />
+<img width="1112" height="622" alt="Captura de pantalla (564)" src="https://github.com/user-attachments/assets/76bfbdd5-4f3a-40c9-8f49-22edffc8e3f3" />
+<img width="1111" height="612" alt="Captura de pantalla (572)" src="https://github.com/user-attachments/assets/be92b45d-8ff3-4356-a153-726257ec941f" />
+<img width="1111" height="612" alt="Captura de pantalla (571)" src="https://github.com/user-attachments/assets/1db5a81a-4619-4e03-b863-7223092ff486" />
