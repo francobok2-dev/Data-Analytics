@@ -517,3 +517,43 @@ Este dashboard permite:
 <img width="1112" height="622" alt="Captura de pantalla (564)" src="https://github.com/user-attachments/assets/76bfbdd5-4f3a-40c9-8f49-22edffc8e3f3" />
 <img width="1111" height="612" alt="Captura de pantalla (572)" src="https://github.com/user-attachments/assets/be92b45d-8ff3-4356-a153-726257ec941f" />
 <img width="1111" height="612" alt="Captura de pantalla (571)" src="https://github.com/user-attachments/assets/1db5a81a-4619-4e03-b863-7223092ff486" />
+
+## Proyecto 7: Análisis de Negocio con Python
+
+En este proyecto desarrollé un análisis comercial utilizando Python y un dataset de ventas de productos online. A través de las librerías Pandas, Numpy y Matplotlib, realicé tareas de limpieza, transformación y visualización de datos para identificar patrones de consumo, oportunidades de mejora y posibles problemas operativos.
+
+Durante el proceso, corregí inconsistencias en el dataset, transformé tipos de datos y generé nuevas variables que permitieron profundizar el análisis, especialmente en áreas como comportamiento temporal de ventas, segmentación de productos y tiempos de entrega.
+
+### Variables principales analizadas:
+
+Total de ventas por cada día de la semana (agrupando varios años).
+Total de ventas por mes (agrupando varios años).
+Distribución de ventas "bajas", "medianas" y "altas" para cada categoría.
+Tiempo de demora para cada categoría de productos en cada estado.
+Productos más y menos rendidores (subcategorías) dentro de cada categoría.
+
+### 📊 Principales insights obtenidos
+
+- Los jueves presentan menor volumen de ventas respecto al resto de la semana, lo que podría indicar una oportunidad para implementar promociones o campañas específicas.
+- El último trimestre del año concentra la mejor performance comercial, impulsado por eventos como Black Friday, Cyber Monday y las compras de fin de año. En contraste, febrero muestra el menor nivel de ventas, probablemente debido a una reducción del consumo luego de la temporada alta.
+- Las categorías de Tecnología y Muebles concentran la mayoría de las ventas de alto valor, mientras que Artículos de Oficina presenta principalmente ventas bajas y medianas.
+- El Distrito de Columbia presenta los mayores tiempos promedio de entrega en todas las categorías, mientras que otros estados muestran diferencias logísticas según el tipo de producto, lo que podría indicar problemas específicos de transporte o distribución.
+- Dentro de la categoría Tecnología, los teléfonos celulares son los productos con mayor impacto tanto en cantidad de ventas como en ingresos generados. En Muebles ocurre algo similar con las sillas.
+- En Artículos de Oficina, las fotocopiadoras generan un alto volumen de ingresos pese a tener pocas ventas, lo que sugiere un ticket promedio elevado y un enfoque comercial más orientado a empresas que a consumidores particulares.
+
+🚀 Valor del proyecto
+
+Este proyecto me permitió reforzar habilidades de análisis de datos, manipulación de datasets y generación de insights de negocio utilizando Python como herramienta principal. Así mismo, es una forma de demostrar cómo tener conocimientos de programación puede servir para un proyecto de análisis de datos y de qué manera pueden cruzarse y relacionarse las áreas de data y de desarrollo de software.
+
+📁 **Archivo:** `Analisis_Ventas_Python.ipynb`
+
+### 🖼 Vista del dashboard
+
+<img width="594" height="502" alt="Captura de pantalla (574)" src="https://github.com/user-attachments/assets/839d4485-9d14-44e6-9a03-49d1610940f1" />
+<img width="555" height="445" alt="Captura de pantalla (575)" src="https://github.com/user-attachments/assets/bc90d769-42ef-42f7-9640-17ea1efc3696" />
+<img width="653" height="548" alt="Captura de pantalla (576)" src="https://github.com/user-attachments/assets/b546ee6b-77bd-4662-b6f6-8e4ec9d68841" />
+<img width="666" height="646" alt="Captura de pantalla (577)" src="https://github.com/user-attachments/assets/cb0fa053-23f1-476d-ab66-5744f262e2e9" />
+<img width="643" height="634" alt="Captura de pantalla (578)" src="https://github.com/user-attachments/assets/ab4ef741-d64c-4124-9aea-572b6fbeeeb7" />
+
+
+
