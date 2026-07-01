@@ -555,5 +555,59 @@ Este proyecto me permitió reforzar habilidades de análisis de datos, manipulac
 <img width="666" height="646" alt="Captura de pantalla (577)" src="https://github.com/user-attachments/assets/cb0fa053-23f1-476d-ab66-5744f262e2e9" />
 <img width="643" height="634" alt="Captura de pantalla (578)" src="https://github.com/user-attachments/assets/ab4ef741-d64c-4124-9aea-572b6fbeeeb7" />
 
+## 📊 Proyecto 8: Análisis Comercial con SQL Server y Power BI
 
+### Descripción
 
+Este proyecto consiste en un análisis comercial desarrollado sobre la base de datos AdventureWorks, utilizando SQL Server para la extracción y transformación de datos y Power BI para la creación del dashboard y la visualización de resultados.
+
+El objetivo es analizar el comportamiento de las ventas, comparar el desempeño de los canales online y offline e identificar los productos con mayor impacto en el negocio para facilitar la toma de decisiones basada en datos.
+
+### Objetivos del análisis
+
+Analizar la evolución de las ventas entre 2011 y 2014.
+Comparar el desempeño de los canales Online y Offline.
+Identificar tendencias de crecimiento.
+Detectar los productos con mayor volumen de ventas.
+Analizar la rentabilidad de los productos considerando su costo de fabricación.
+Evaluar la relación entre precio y cantidad vendida.
+
+### Tecnologías utilizadas
+SQL Server
+Power BI
+DAX
+
+### Consultas SQL utilizadas
+
+Durante el desarrollo del proyecto se emplearon consultas de complejidad intermedia y avanzada, entre ellas:
+
+VIEW
+INNER JOIN
+LEFT JOIN
+GROUP BY
+ORDER BY
+TOP
+SUM()
+AVG()
+COUNT()
+RANK() OVER()
+
+### Principales insights
+
+Las ventas offline generan la mayor parte de la facturación, mientras que la mayoría de los clientes compra por el canal online, lo que representa una oportunidad para fortalecer la estrategia digital.
+La proyección del segundo semestre de 2014 sugiere que las ventas podrían igualar o acercarse a los resultados obtenidos en 2013, manteniendo la tendencia de crecimiento observada en años anteriores.
+El canal online presenta la mayor proyección de crecimiento, en línea con la expansión del comercio electrónico.
+Los productos que generan mayores ingresos coinciden, en su mayoría, con los más rentables, reflejando una estrategia comercial alineada con los objetivos del negocio.
+El precio de un producto no determina necesariamente su nivel de ventas. Algunos productos premium mantienen una demanda elevada pese a su alto valor.
+
+### Aprendizajes
+
+Este proyecto me permitió profundizar en el uso de SQL para consultas analíticas, practicar técnicas de modelado de datos en Power BI y reforzar la importancia de comunicar resultados mediante dashboards orientados a la toma de decisiones.
+
+### 🖼 Vista del dashboard
+
+📁 **Archivo:** `ProyectoSQLAnalisisNegocio.pbix`
+
+<img width="1250" height="606" alt="Captura de pantalla (593)" src="https://github.com/user-attachments/assets/f2b89612-ddf9-4185-b186-7056186956b2" />
+
+<img width="1247" height="609" alt="Captura de pantalla (594)" src="https://github.com/user-attachments/assets/182866ff-b0ca-4564-84d5-8948f21414ef" />
